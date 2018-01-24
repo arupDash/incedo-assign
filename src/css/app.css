@@ -1,0 +1,74 @@
+body {
+    background-color: #F2F2F2;
+}
+.main-div {
+    margin-top: 20px;
+    background-color: white;
+}
+.table-row {
+
+    margin: 30px auto;
+    width: 85%;
+}
+.header {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 7px;
+}
+.link-color {
+    color: black;
+}
+.active {
+    background-color: #343a40;
+    color: white;
+}
+.link-color:hover {
+    background-color: grey;
+    color: white;
+}
+/* .page-btn:active {
+    background-color: #343a40;
+    color: white; 
+} */
+.page-btn:focus {
+    background-color: #343a40;
+    color: white; 
+}
+.error-btn {
+    border: 1px solid red;
+    border-top-right-radius: 45%;
+    border-top-left-radius: 50%;
+    background-color: red;
+    color: white;
+    display: block;
+    margin: 0 auto;
+}
+.error-div {
+    margin: 0 auto;
+}
+.loading-background {
+    width : 10%;
+    height: 30vh;
+    margin: 20% auto;
+    background: url('../images/loading.gif');
+    background-repeat: no-repeat;
+}
+.header-text {
+    margin-left: 8%;
+    padding: 0px;
+    display: block;
+    float:left;
+}
+.header-searchBox {
+    display: block;
+    float: right;
+    width : 30%;
+    margin-top: 1%;
+    margin-right: 8%;
+    height: 2.2rem;
+    padding: 10px;
+    font-size: 16px;
+}
+    
