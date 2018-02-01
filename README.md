@@ -7,4 +7,4 @@ Prequisites
 3. Clone the git repo.
 4. cd into the cloned directory.
 5. npm install.
-6. npm start.
+6. npm run server.
